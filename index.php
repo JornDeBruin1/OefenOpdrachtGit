@@ -19,7 +19,10 @@
             <br />
 
             <h2>Actuele datum en tijd</h2>
-            <?php echo "Today is " . date("Y/m/d") . "<br>"; ?>
+            <?php 
+				echo "Date: " . date("Y/m/d") . "<br>";
+				echo "Time:" . date("h:i:sa");
+			?>
             <br />
 
             <p>Je naam</p>
